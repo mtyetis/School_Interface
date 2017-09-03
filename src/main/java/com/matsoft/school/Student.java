@@ -8,6 +8,16 @@ public class Student {
     private String surname;
     private String lesson;
 
+    public Double getNote() {
+        return note;
+    }
+
+    public void setNote(Double note) {
+        this.note = note;
+    }
+
+    private Double note;
+
     public String getName() {
         return name;
     }
