@@ -7,16 +7,17 @@ public class Student {
     private String name;
     private String surname;
     private String lesson;
+    private int note;
 
-    public Double getNote() {
+
+    public int getNote() {
         return note;
     }
 
-    public void setNote(Double note) {
+    public void setNote(int note) {
         this.note = note;
     }
 
-    private Double note;
 
     public String getName() {
         return name;
@@ -40,5 +41,12 @@ public class Student {
 
     public void setLesson(String lesson) {
         this.lesson = lesson;
+    }
+
+    public Student(String name, String surname, String lesson, int note){
+        this.name = name;
+        this.surname = surname;
+        this.lesson = lesson;
+        this.note = note;
     }
 }
